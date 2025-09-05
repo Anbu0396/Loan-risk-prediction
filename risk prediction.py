@@ -441,7 +441,7 @@ def get_user_input_and_predict():
     except Exception as e:
         print(f"An error occurred: {e}")
 
-print(f"Accuracy: {accuracy*1.08}")
+print(f"Accuracy: {accuracy}")
 
 while True:
     get_user_input_and_predict()
